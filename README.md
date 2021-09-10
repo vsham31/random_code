@@ -1,2 +1,2 @@
 # socket_programming
-These are the computer network lab experiments.
+These are the recent random codes written by me.
