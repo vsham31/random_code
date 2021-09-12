@@ -7,4 +7,4 @@ This is an app which provides following information about connected WiFi:
 5. Hidden SSID
 6. BSSID
 
-Min android version required for this app is android 6.0 (Marshmellow)
+Min android version required for this app is android 6.0 (Marshmallow)
