@@ -1,0 +1,1 @@
+This is a basic application written in kotlin, it connects C++ with kotlin and displays the output. Calculations are done natively C++ functions for max performance and the results are displayed in GUI using kotlin. This gives best of both world i.e. performance as well as beauty. Minimum android version required to run this app in android 6.0 (Marshmallow).
