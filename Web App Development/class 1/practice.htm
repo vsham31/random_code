@@ -1,7 +1,16 @@
-
+<!DOCTYPE html>
 <html>
 	<head>
+        <meta charset="UTF-8">
+		<!--<link rel="stylesheet" href="style.css">-->
 		<title> html practice </title>
+
+		<style>
+		h1 {
+			color:brown;
+		}
+		</style>
+
 	</head>
 
 	<body bgcolor="gray" text="white">
@@ -17,7 +26,7 @@
 		</h1>
 		</center>
 
-		<p> This is a paragraph.</p>
+		<p style="color:rgb(243, 201, 84);"> This is a paragraph.</p>
 
 		<center>
 
@@ -27,22 +36,26 @@
 
 		<a href="https://github.com/vsham31" target="new"><img src="git.jpeg"></a>
 
-		<input type="text"><br><br>
-		<input type="text"><br><br>
-		<input type="radio"><input type="radio"><input type="radio"><br><br>
-		<input type="checkbox"><input type="checkbox"><input type="checkbox"><br><br>
+		<form autocomplete="on">
+
+		<fieldset><legend>FORM</legend><br>
+
+		<input type="text" placeholder="username" name="username" autocomplete="on"><br><br>
+		<input type="text" placeholder="password"><br><br>
+		<input type="text" value="STUDENT" readonly><br><br>
+
+		</fieldset>
+		<input type="radio">Option 1<input type="radio">Option 2<input type="radio"><br><br>
+		<input type="checkbox">Checkbox 1<input type="checkbox">Checkbox 2<input type="checkbox">Checkbox 3<br><br>
 
 		<select name="fruits">
-			<option value="apple“>Apple</option>
+			<option value="apple">Apple</option>
 			<option value="orange">Orange</option>
-			<option value="mango“ selected>Mango</option>
+			<option value="mango" selected>Mango</option>
 		</select><br>
 
 
-		
-
 		<input type="submit"><br>
-
 
 
 		</form>
@@ -50,8 +63,45 @@
 		<br><br>
 
 		<textarea name="message" rows="10" cols="30">
-			The cat was playing in the garden.
-		</textarea>
+			Example of textarea.		
+		</textarea><br><br>
+
+
+        <audio controls autoplay loop>
+            <source src="music.mp3" type="audio/mpeg"/>
+            if you can see this, update your browser
+            
+        </audio><br><br>
+
+     
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZYGd-llxHJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            if you can see this, update ur browser
+        <br><br>
+
+
+            <input list="browsers" name="browser">
+            <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+            </datalist>
+            <input type="button" value="submit" placeholder="Datalist">
+        <br><br>
+
+        <article>
+            <h1 style="color: indigo;">What Does WWF Do?</h1>
+            <p style="color:goldenrod;">WWF's mission is to stop the degradation of our
+            planet's natural environment, and build a future in
+            which humans live in harmony with nature.</p>
+        </article><br><br>
+
+
+        <br><br><br><br><br><br><br><br><br><br>
+
+    
+
 
 		</center>
 
