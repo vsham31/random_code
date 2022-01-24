@@ -79,6 +79,19 @@
         <br><br>
 
 
+		<style type="text/css">
+		
+		.pos_relative{position:relative;
+			top:-lex;
+			}
+
+		.pos_absolute{position:absolute;
+			top:10px;
+			left:10px;
+			}
+		</style>
+
+
             <input list="browsers" name="browser">
             <datalist id="browsers">
             <option value="Internet Explorer">
@@ -90,15 +103,61 @@
             <input type="button" value="submit" placeholder="Datalist">
         <br><br>
 
+
+
+
+		<style>
+		.dropdown {
+ 		 position: relative;
+		  display: inline-block;
+		}
+
+		.dropdown-content {
+		  display: none;
+		  position: absolute;
+		  background-color: black;
+
+		  }
+
+		.dropdown:hover .dropdown-content {
+		  display: block;
+		}
+		</style>
+
+		<div class="dropdown">
+		  <span style="color:black;">Hover here</span>
+		  <div class="dropdown-content">
+		    <p>LIST</p>
+		  </div>
+		</div>
+
+
+		<br><br>
+
         <article>
-            <h1 style="color: indigo;">What Does WWF Do?</h1>
-            <p style="color:goldenrod;">WWF's mission is to stop the degradation of our
+            <h1 class ="pos_relative" style="color: indigo;">What Does WWF Do?</h1>
+
+            <p class="pos_absolute" style="color:goldenrod;">WWF's mission is to stop the degradation of our
             planet's natural environment, and build a future in
             which humans live in harmony with nature.</p>
         </article><br><br>
 
 
+	<script language="javascript">
+
+
+	document.write("<h1>Hello World in Javascript</h1>");
+
+
+	</script>
+
+
         <br><br><br><br><br><br><br><br><br><br>
+
+
+	
+
+		
 
     
 
