@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.js"></script>
+
+</head>
+
+<body ng-app="">
+
+    <div>
+        TEXT: { {30 + 20} }
+    </div>
+
+    <div ng-app="">Expression: {{30 + 20}}</div>
+
+    <br><br>
+
+    <div ng-model="">
+
+        <label>NICKNAME</label>
+
+        <input type="text" ng-model="nick" placeholder="nickname">
+
+        <h3>Good morning, your nickname is {{nick}}</h3>
+
+    </div>
+    
+</body>
+
+</html>

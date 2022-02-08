@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Module</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  </head>
+  <body ng-app="myApp">
+    <div ng-controller="ctrl">
+      <input type="text" placeholder="First Name" ng-model="firstName" />
+      <input type="text" placeholder="Last Name" ng-model="lastName" />
+      <p>{{fullName}}</p>
+    </div>
+  </body>
+  <script>
+    const app = angular.module("myApp", []);
+    app.controller("ctrl", ($scope) => {
+      $scope.firstName = "Vaibhav";
+      $scope.lastName = "Sharma";
+      $scope.fullName = $scope.firstName + " " + $scope.lastName;
+    });
+  </script>
+
+
+
+<div ng-app="myapp" ng-controller="ctrl">
+    First Name: <input type="text" ng-model="firstname"><br>
+    Last Name: <input type="text" ng-model="lastname"><br>
+    <br>
+    fullName:{{firstname+" " + lastname}}
+</div>
+<script>
+    var app = angular.module('myapp', []);
+    app.controller('ctrl', function($scope){
+        $scope.firstname = "VAIBHAV";
+        $scope.lastname = "SHARMA";
+    });
+</script>
+
+
+</html>
